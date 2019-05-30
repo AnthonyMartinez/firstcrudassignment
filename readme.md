@@ -17,3 +17,10 @@ Here's a list of all the routes you'll need.
 
  ### Stretch:
  Add an id field to the object and use that instead of name for all of your routes.
+
+### Anthony's API documentation 
+| name | method | url  | desc | |---| ---|---|---| |index | GET | /users
+| returns all users| | Show | GET | /users/:name| show a user with name :name|
+|Create | POST | /users | Creates a new user | |Update | PUT | /users/:name
+| updates user with name :name | |Destroy | DELETE |  /users/:name | Deletes
+the user with name :name |
